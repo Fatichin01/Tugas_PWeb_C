@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .judul {
+    font-family: "Comic Sans MS", cursive;
+    color: #4444ff;
+    text-align: center;
+  }
+  pre {
+    font-family: "Comic Sans MS", cursive;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="judul">Pemrograman Web</h1>      
+    <p class="judul">Tugas matakuliah Pemrograman Web kelas C</p>
+  </div>
+  <pre>Nama : Mochammad Rizqul Fatichin <span class="badge badge-pill badge-success">Premium</span></pre>      
+  <pre>NRP  : 05211940000027</pre>
+  <hr>
+  <h2>Lihat Tugas</h2>
+  <p>Pilih tugas yang ingin dilihat</p>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Minggu ke-
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1</a>
+      <a class="dropdown-item" href="#">2</a>
+      <a class="dropdown-item" href="#">3</a>
+      <a class="dropdown-item" href="#">4</a>
+      <a class="dropdown-item" href="#">5</a>
+      <a class="dropdown-item" href="#">6</a>
+      <a class="dropdown-item" href="#">7</a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Download berhasil!</strong> Buka download <a href="#" class="alert-link">disini</a>.
+  </div>
+  <div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Download gagal!</strong> klik <a href="#" class="alert-link">disini</a> untuk informasi.
+  </div>
+  <br>
+  <button type="button" class="btn btn-primary btn-block">Upload</button>
+  <button type="button" class="btn btn-success btn-block">Download</button>
+  <br>
+  <button class="btn btn-primary btn-block" disabled>
+    <span class="spinner-border spinner-border-sm"></span>
+    Tunggu gan ... 4 sec
+  </button>
+  <br>
+  <hr>
+  <br>
+</div>
+<div class="container">
+  <h2>Uploading file</h2>
+  <p>TugasBootstrap_1_PWeb-C.html</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+  </div>
+  <h2>Uploading file</h2>
+  <p>TugasBootstrap_2_PWeb-C.html</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%">40%</div>
+  </div>
+</div>
+</body>
+</html>
